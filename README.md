@@ -56,14 +56,4 @@ docker-compose up --build
 
 Once it's done building, the app will be served via Nginx and available on `http://localhost:8080`.
 
----
 
-## 🌐 Deployment
-
-Since this project is built with Vite, deploying it is a breeze. If you want to host it live, I highly recommend using **Vercel** or **Netlify**:
-
-1. Push this repository to your GitHub account.
-2. Log into Vercel or Netlify and select "Add New Project".
-3. Point it to your GitHub repository. The platform will automatically detect that it's a Vite app and handle the build (`npm run build`) and deployment for you.
-
-That's it! If you have any questions or run into any issues, feel free to poke around the code—I've tried to keep everything as intuitive and well-structured as possible. Enjoy exploring! ✨
