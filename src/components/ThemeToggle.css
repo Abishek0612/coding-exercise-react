@@ -1,0 +1,18 @@
+.theme-toggle {
+  background: var(--bg-surface-alt);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.theme-toggle:hover {
+  background: var(--bg-hover);
+  transform: rotate(15deg);
+}

@@ -1,0 +1,83 @@
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  width: 100%;
+}
+
+.app-header {
+  padding: 48px 0 32px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.app-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+  letter-spacing: -0.5px;
+}
+
+.app-subtitle {
+  font-size: 16px;
+  color: var(--text-secondary);
+  font-weight: 400;
+}
+
+.app-main {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-bottom: 64px;
+}
+
+.controls-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--bg-surface);
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.03);
+  border: 1px solid var(--border-color);
+}
+
+.content-section {
+  width: 100%;
+}
+
+.pagination-section {
+  background: var(--bg-surface);
+  padding: 8px 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.03);
+  border: 1px solid var(--border-color);
+}
+
+@media (max-width: 640px) {
+  .app-header {
+    padding: 32px 0 24px;
+  }
+
+  .header-content {
+    flex-direction: column;
+  }
+  
+  .app-title {
+    font-size: 28px;
+  }
+
+  .controls-section {
+    flex-direction: column;
+  }
+  
+  .controls-section > div {
+    max-width: 100%;
+  }
+}
